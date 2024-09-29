@@ -3,9 +3,8 @@ class Cashier:
         pass
 
     def process_coins(self):
-        """Returns the total calculated from coins inserted.
-           Hint: include input() function here, e.g. input("how many quarters?: ")"""
-        dollars = float(input("How many dollars?: "))
+        """Returns the total calculated from coins inserted."""
+        dollars = float(input("How many dollars?: ")) * 1
         half_dollars = float(input("How many half dollars?: ")) * .5
         quarters = float(input("How many quarters?: ")) * .25
         nickels = float(input("How many pennies?: ")) * .05
